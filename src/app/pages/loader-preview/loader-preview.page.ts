@@ -11,7 +11,7 @@ export class LoaderPreviewPage implements OnInit {
   @ViewChild('thumbnailsPreview', {static: false}) thumbnailsPreview: ElementRef;
   @ViewChild('messageTextArea', {static: false}) messageTextArea: ElementRef;
   // @Output() eventSendMessage = new EventEmitter<object>();
-  @Input() files: [any];
+  @Input() files: FileList;
 
   public arrayFiles = [];
   public fileSelected: any;

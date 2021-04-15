@@ -3,7 +3,7 @@
   <ion-content class="splash-page">
     <div padding class="image-splash-page"></div>
     <div padding class="title-splash-page">
-      text new conversation + button
+      mensaje de texto nueva conversación + botón
     </div>
   </ion-content>
 </ng-template>
@@ -24,7 +24,7 @@
       <ion-row class="row_content">
         <ion-col id="chatArea" [class.mobile]="isMobile" [class.open]="openInfoConversation">
           <ion-row class="row_chat_area" [style.height]="'calc(100% - '+heightMessageTextArea+'px)'">
-            <span *ngIf="showMessageWelcome && messages.length == 0; then content_welcome else content_messages">here is ignored</span>
+            <span *ngIf="showMessageWelcome && messages.length == 0; then content_welcome else content_messages">aquí se ignora</span>
       
             <ng-template #content_welcome>
               <div class="messageFirst">

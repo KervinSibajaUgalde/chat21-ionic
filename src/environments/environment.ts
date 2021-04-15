@@ -8,6 +8,10 @@ export const environment = {
     production: false,
     remoteConfig: false,
     remoteConfigUrl: './chat-config.json',
+    chatEngine: 'firebase',
+    shemaVersion: '',
+    remoteContactsUrl: 'http://localhost:3000',
+    authPersistence: '',
     firebaseConfig: {
         apiKey: 'AIzaSyCCXlqBMquWntJLBseu6qNTM-mTrMfYFW8',
         authDomain: 'tiledesk-facture-dev.firebaseapp.com',
@@ -17,5 +21,5 @@ export const environment = {
         messagingSenderId: '82084183603',
         appId: '1:82084183603:web:d04b7e390ddd2d8b342d46',
         chat21ApiUrl: 'https://us-central1-tiledesk-facture-dev.cloudfunctions.net'
-    }
+    },
 }
